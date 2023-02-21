@@ -2,7 +2,7 @@ import { StyleSheet, View, Text, Pressable } from "react-native";
 
 function GoalItem(props) {
     return (
-        <Viev style={styles.goalItem}>
+        <View style={styles.goalItem}>
             <Pressable
                 //For Android
                 android_ripple={{ color: "#210644" }}
@@ -12,7 +12,7 @@ function GoalItem(props) {
             >
                 <Text style={styles.goalText}>{props.text}</Text>
             </Pressable>
-        </Viev>
+        </View>
     );
 }
 
