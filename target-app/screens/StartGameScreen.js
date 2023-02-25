@@ -59,6 +59,6 @@ const styles = StyleSheet.create({
     },
 
     buttonContainer: {
-      flex: 1,
-    }
+        flex: 1,
+    },
 });
