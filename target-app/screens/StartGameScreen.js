@@ -32,7 +32,6 @@ function StartGameScreen({ onPickNumber }) {
             return;
         }
 
-        console.log(chosenNumber);
         onPickNumber(chosenNumber);
     }
 
