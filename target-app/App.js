@@ -27,6 +27,6 @@ const styles = StyleSheet.create({
     },
 
     backgroundImage: {
-        opacity: 0.75,
+        opacity: 0.4,
     },
 });
